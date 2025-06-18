@@ -13,7 +13,7 @@
 			<ul class="nav navbar-nav navbar-left">
 				<li><a href="branded.html">BRANDED</a></li>
 				<!-- li><a href="events.php">EVENTS</a></li -->
-				<li><a href="archives.php">BMX ARCHIVES</a></li>
+				<li><a href="archives.html">BMX ARCHIVES</a></li>
 				<li><a href="index2.php">PORTFOLIOS</a></li>
 				<li><a href="index.php">MENDER</a></li>
 			</ul>
