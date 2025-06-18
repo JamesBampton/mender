@@ -1,6 +1,8 @@
-# challenge-2
+# Mender Portfolio Site - Now contains updated version of the Branded BMX sample site
 
-Challenge for week 2 - Build a multipage web site using the skills learnt to far
+
+
+# Challenge for week 2 - Build a multipage web site using the skills learnt to far
 
 The site is based around a ficticious store selling retro BMX bikes.
 
