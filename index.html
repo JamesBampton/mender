@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html ng-app lang="en">
+
+<head>
+	<title>BMX Store</title>
+	<!--This will adjust view width to device size-->
+	<meta name="viewport" content="width=device-width">
+	<meta charset="UTF-8">
+
+	<!--link rel="stylesheet" href="styles/reset.css"-->
+	<link rel="stylesheet" href="styles/brand-styles.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+		integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body id="landingPage" data-target=".navbar" data-offset="60">
+
+	<!-- Header with Navigation Bar -->
+	<nav class="main-nav">
+		<div>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="store.html">STORE</a></li>
+				<li><a href="events.html">EVENTS</a></li>
+				<li><a href="archives.html">ARCHIVES</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!------------------------------------------- CONTAINER (TEAM PORTALS) -------------------------------------------------------------->
+	<header>
+		<div class="floating-box-test" id="myHeader"><br><br>
+			<img src="images/main.jpg" alt="Image" style="width:50%"><br><br>
+			<div class="centered myfontL">UK's No 1<br>
+				<p class="myfontS">old skool bmx dealer...</p>
+
+				<div class="centered-logo myfontLogo">
+					<img id="myimg" src="images/branded-logo--head.png" style="width:100%" alt="Image"><br><br>
+				</div>
+			</div>
+		</div>
+
+	</header>
+
+	<section id="about-us">
+		<h2 style="color: #2cc7cdfe">Our Business</h2>
+		<p>
+			Since <strong>1992</strong>, we've been riding the wave of BMX heritage straight out of <strong>London,
+				UK</strong>. What began as a passion project has become the go-to global hub for <em>authentic, original
+				old skool BMX bikes</em>. No replicas. No gimmicks. Just pure vintage steel, chrome, and attitude.
+		</p>
+		<p>
+			Whether you're hunting that <strong>Skyway TA</strong> from your youth, restoring a <strong>Haro
+				Freestyler</strong>, or just getting hooked on the golden era of 20" thrills — we’ve got you covered.
+			Our hand-picked collection brings back the raw, untamed spirit of BMX’s prime, shipped
+			<strong>worldwide</strong> to riders, collectors, and old school dreamers everywhere.
+		</p>
+		<p>
+			At our core, we’re riders too. We respect the classics, obsess over every crank and decal, and believe every
+			BMX has a story worth telling. So whether you're reliving your glory days or writing a new chapter — welcome
+			to the movement.
+		</p>
+		<p style="font-style: italic; margin-top: 1.5em;">
+			Original. Vintage. Legendary. Old Skool BMX — keeping it real since ’92.
+		</p>
+	</section>
+
+	<br><br><br><br>
+
+	<section>
+
+		<div class="flex-container">
+			<!---- CARD 1 -->
+			<div class="flex-item">
+				<p class="deets">Shop Retro Bikes</p>
+				<div class="card" style="background:#2fc7cd;">
+
+					<a href="store.html">
+						<div class="icons-style" style="padding-top: 0%">
+							<img src="images/store6-logo.png"
+								style="height: 120px; width: 120px; border-radius: 70%; border: 2px solid rgb(43, 153, 180); margin: 0%; bottom: 10px; left: 0;"
+								style="margin-bottom: 60px; padding-top:0px" alt="BMX">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!---- CARD 2 -->
+		<div class="flex-item">
+			<p class="deets">Upcoming 2025</p>
+			<div class="card" style="background:#2fc7cd;">
+
+				<div class="icons-style" style="padding-top: 0%">
+					<a href="events.html"><img src="images/events6-logo.png"
+							style="height: 120px; width: 120px; border-radius: 70%; border: 2px solid rgb(43, 153, 180); margin: 0%; bottom: 10px; left: 0;"
+							style="margin-bottom: 60px; padding-top:0px" alt="BMX"></a>
+				</div>
+			</div>
+		</div>
+
+		<!---- CARD 3 -->
+		<div class="flex-item">
+			<p class="deets">Old Skool Gallery</p>
+			<div class="card" style="background:#2fc7cd;">
+
+				<div class="icons-style" style="padding-top: 0%">
+					<a href="archives.html"><img src="images/retro6-logo.png"
+							style="height: 120px; width: 120px; border-radius: 90%; border: 2px solid rgb(43, 153, 180); margin: 0%; bottom: 10px; left: 0;"
+							style="margin-bottom: 60px; padding-top:0px" alt="BMX"></a>
+				</div>
+			</div>
+		</div>
+		</div>
+		</div>
+		</div>
+	</section>
+
+	<br><br><br><br><br><br>
+
+	<section>
+		<div class="flex-container-foot">
+
+			<div class="flex-item-foot">
+				<p class="deets-contact">CONTACT FORM</p>
+				<div style="background:#2fc7cd;padding-left: 20px;padding-right: 20px; padding-bottom:20px">
+					<!-- div class="form-container-foot" -->
+					<form action="submit.php" method="post">
+						<label for="name">Name:</label>
+						<input type="text" name="name" id="name">
+						<br>
+						<label for="email" class="email-label">Email:</label>
+						<input type="email" name="email" id="email">
+						<br>
+						<label for="message">Message:</label><br>
+						<textarea style="width: 100%" id="message" name="message" rows="6" required></textarea>
+						<br>
+						<input id="button" style="width:100px; color:black;" type="button" value="Message">
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<br><br><br><br><br>
+
+	<footer>
+		<div style="background-color: #2cc7cdfe; padding: 0px;">
+			<img src="images/berm-blue2.png"
+				style="width:100%; border-style: none; background-color:black; border: 0px;">
+		</div>
+		<div class="adds" style="height:100%; padding: 40px; font-size:20px; background-color: #2cc7cdfe;">
+			<br><br>
+			<address class="animate-bottom">
+				<strong>Branded BMX</strong><br>
+				123 Hoxton Street<br>
+				London, EC3 TQY<br>
+				United Kingdom<br>
+				0181 4532876<br>
+			</address>
+
+
+		</div><br>
+
+		<div class="w3-center"
+			style="padding-bottom: 0px; height: 90%; display: flex; align-items: center; justify-content: center;">
+			<ul class="mediame">
+				<li><a style="color:white" href="#" class="fab fa-instagram fa-2x"></a></i>
+				<li><a style="color:white" href="#" class="fab fa-facebook-f fa-2x"></a></i>
+			</ul>
+		</div>
+
+		</div>
+		<br><br><br><br>
+
+		<p>&copy; 2025 Your Name. All rights reserved</p>
+
+		<footer>
+
+</body>
+
+</html>

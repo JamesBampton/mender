@@ -1,0 +1,44 @@
+ .navbar {
+  min-height: 30px;
+  font-size:1em;
+  margin:0;
+  padding:0;
+  padding-top:6px;
+  colour: black;
+  text-align:center;
+}
+
+.navbar-brand {
+  padding: 0 6px;
+  height: 30px;
+  line-height: 30px;
+  font-size:3em;
+  margin:0;
+  padding-right:30;
+  padding:6px;
+  text-align:center;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+  
+  .imgb {
+	height: 100px;
+	width: 100px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	object-fit:scale-down;	
+}
+
+

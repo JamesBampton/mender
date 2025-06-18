@@ -1,0 +1,123 @@
+.icons {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, 30%);
+	z-index: 3;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	font-size: 32px;
+}
+
+/* trying to get tool tip to work on icons an be deleted */
+.icons .tooltip {
+  position: absolute;
+  display: inline-block;
+}
+
+.icons .tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100%;
+  background-color: black;
+  color: #blue;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.icons .tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* trying to get tool tip to work on icons */
+
+.icons li {
+	list-style: none;
+}
+
+	.icons li a {
+		position: relative;
+		display: block;
+		width: 60px;
+		height: 60px;
+		/*color: teal;*/
+		text-align: center;
+		background: #ffffff;
+		margin: 0 8px;
+		padding-top: 7px;
+		border-radius: 50%;
+		border: 1px;
+		border-color: #b388ff;
+		transition: 0.5s;
+		transform: translateY(250px);
+		opacity: 0;
+		border: 1px solid rgba(2, 40, 174, 0.40);
+	}
+
+
+.content .card:hover .icons li a {
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+.content .card .icons li a .fa {
+	transition: 0.4s;
+	font-size: 12px;
+	line-weight: 50px;
+}
+
+/*Playing with icons*/
+.content .card:hover .icons li a {
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+.content .card .icons li a .fa {
+	transition: 0.4s;
+	font-size: 12px;
+	line-weight: 50px;
+}
+/*Playing with icons end*/		
+
+/*.content .card .icons li a:hover .fa {
+	transform: rotateY(360deg);
+}*/
+
+
+.content .card .icons li:nth-child(1) a {
+	transition-delay: 0s;
+}
+
+.content .card .icons li:nth-child(2) a {
+	transition-delay: 0.2s;
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  /*border-bottom: 1px dotted black;*/
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: black;
+  color: #blue;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

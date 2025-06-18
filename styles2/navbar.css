@@ -1,0 +1,122 @@
+.navbar {
+	margin-bottom: 0;
+	background-color: #e0e0e0;
+	z-index: 9999;
+	border: 0;
+	font-size: 15px !important;
+	line-height: 1.42857143 !important;
+	letter-spacing: 4px;
+	border-radius: 0;
+	font-family: Montserrat, sans-serif;
+	/*margin-left: -80px;*/ /* navbar set with minus to make the contact div level*/
+}
+
+.navbar li a, .navbar {
+	color: #afb5ca !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+	color: #424242 !important;
+	background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+	color: #aaa !important;
+}
+
+.navbar-brand {
+	padding-right: 150px;
+	font-size: 22px;
+	color: #607d8b;
+	font-family: Montserrat, sans-serif;
+}
+ul#contacts {
+	margin-top: 0%;
+	position: relative;
+	width: 100%;
+	bottom: 0px;
+	padding-left: 1%;
+	padding-right: 1%;
+	border: 1px solid #afb5ca;
+	text-align: center;
+	list-style-position: inside;
+	font-size: 14px;
+	font-family: Montserrat, sans-serif;
+}
+ul#contacts li {
+	display: inline;
+	*display: inline;
+}
+
+li#phone {
+	padding-right: 1px;
+	}
+
+.contacts-fixed {
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	padding-top: 5px;
+	margin-top: 23px;
+}
+
+.contacts-fixed ul {
+	color: white;
+	background: rgba(0, 87, 184, 0.40);
+	padding: 1px;
+	color: #fff;
+	text-align: center;
+	font-size: 26px;
+	}
+/* Footer media fixed*/
+.media-fixed-bottom {
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	padding-top: 5px;
+	margin-bottom: 20px;
+}
+ul#media {
+	margin-top: 0%;
+	position: relative;
+	width: 100%;
+	bottom: 0px;
+	padding-left: 1%;
+	padding-right: 1%;
+	border: 1px solid #afb5ca;
+	text-align: center;
+	list-style-position: inside;
+	font-size: 12px;
+}
+
+ul#media li {
+	display: inline;
+	*display: inline;
+}
+
+li#twitter {
+	padding-right: 1px;
+}
+
+.media-fixed ul {
+	color: white;
+	background: rgb(0, 0, 0);
+	padding: 1px;
+	color: #fff;
+	text-align: center;
+	font-size: 26px;
+}
+.footer {
+	/*position: fixed;*/
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: white;
+	color: white;
+	text-align: center;
+} 
+
+

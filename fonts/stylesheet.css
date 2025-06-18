@@ -1,0 +1,220 @@
+/*! AT&T Fonts */
+
+@font-face {
+    font-family: 'att_aleck_cdbold';
+    src: url('attaleckcd_bd-webfont.woff2') format('woff2'),
+         url('attaleckcd_bd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'att_aleck_cdbold_italic';
+    src: url('https://localhost:3307/boarding/fonts/attaleckcd_bdit-webfont.woff2') format('woff2'),
+         url('https://localhost:3307/boarding/fonts/attaleckcd_bdit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'att_aleck_cdblack';
+    src: url('attaleckcd_blk-webfont.woff2') format('woff2'),
+         url('attaleckcd_blk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'att_aleck_cdblack_italic';
+    src: url('attaleckcd_blkit-webfont.woff2') format('woff2'),
+         url('attaleckcd_blkit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'att_aleck_cditalic';
+    src: url('attaleckcd_it-webfont.woff2') format('woff2'),
+         url('attaleckcd_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'att_aleck_cdlight';
+    src: url('attaleckcd_lt-webfont.woff2') format('woff2'),
+         url('attaleckcd_lt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'att_aleck_cdlight_italic';
+    src: url('attaleckcd_ltit-webfont.woff2') format('woff2'),
+         url('attaleckcd_ltit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'att_aleck_cdmedium';
+    src: url('attaleckcd_md-webfont.woff2') format('woff2'),
+         url('attaleckcd_md-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'att_aleck_cdmedium_italic';
+    src: url('attaleckcd_mdit-webfont.woff2') format('woff2'),
+         url('attaleckcd_mdit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'att_aleck_cdregular';
+    src: url('attaleckcd_rg-webfont.woff2') format('woff2'),
+         url('attaleckcd_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'att_aleck_sansbold';
+    src: url('attalecksans_bd-webfont.woff2') format('woff2'),
+         url('attalecksans_bd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'att_aleck_sansbold_italic';
+    src: url('attalecksans_bdit-webfont.woff2') format('woff2'),
+         url('attalecksans_bdit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+
+@font-face {
+    font-family: 'att_aleck_sansblack';
+    src: url('attalecksans_blk-webfont.woff2') format('woff2'),
+         url('attalecksans_blk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'att_aleck_sansblack_italic';
+    src: url('attalecksans_blkit-webfont.woff2') format('woff2'),
+         url('attalecksans_blkit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'att_aleck_sansitalic';
+    src: url('attalecksans_it-webfont.woff2') format('woff2'),
+         url('attalecksans_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'att_aleck_sanslight';
+    src: url('attalecksans_lt-webfont.woff2') format('woff2'),
+         url('attalecksans_lt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'att_aleck_sanslight_italic';
+    src: url('attalecksans_ltit-webfont.woff2') format('woff2'),
+         url('attalecksans_ltit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'att_aleck_sansmedium';
+    src: url('attalecksans_md-webfont.woff2') format('woff2'),
+         url('attalecksans_md-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'att_aleck_sansmedium_italic';
+    src: url('attalecksans_mdit-webfont.woff2') format('woff2'),
+         url('attalecksans_mdit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'att_aleck_sansregular';
+    src: url('attalecksans_rg-webfont.woff2') format('woff2'),
+         url('attalecksans_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'att_aleck_sansthin';
+    src: url('attalecksans_th-webfont.woff2') format('woff2'),
+         url('attalecksans_th-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'att_aleck_sansthin_italic';
+    src: url('attalecksans_thit-webfont.woff2') format('woff2'),
+         url('attalecksans_thit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

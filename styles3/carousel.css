@@ -1,0 +1,44 @@
+
+.carousel-control.right, .carousel-control.left {
+	background-image: none;
+	/*background-color: white;*/
+	width: 40%;
+}
+
+.carousel-indicators li {
+	border-color: #000000;
+	bottom: -50px;
+}
+
+.carousel-indicators li.active {
+	background-color: white;
+	bottom: -50px;
+}
+
+.carousel .item .carousel-inner {
+	width: 50%;
+	height: 500px;
+	margin: auto;
+	
+}
+
+.carousel-caption {
+	/*width: 100%;*/
+	left: 0%;
+	top: 50% !important;
+	transform: translateY(-180%);
+	text-align: center;
+	bottom: initial;
+	color: #666;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0,0,0,1);
+}
+
+.carouselText {
+	float: left;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	font-size: 16px;
+	color: teal;
+}

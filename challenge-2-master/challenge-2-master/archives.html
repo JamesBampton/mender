@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html ng-app lang="en">
+
+<style>
+	.flex-card-container {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin-left: 5%;
+		margin-right: 5%;
+		grid-gap: 50px;
+		margin-top: 20px
+	}
+
+	.flex-card-items>img {
+		width: 400px;
+		height: 300px;
+		background-color: #ffffff;
+		color: white;
+		display: flex;
+		font-size: 1.2rem;
+		font-family: Arial, sans-serif;
+		border-radius: 2px;
+		box-shadow: 0 4px 6px rgba(66, 64, 64, 0.1);
+		transition: transform 0.3s ease;
+		border: 9px solid white;
+	}
+
+	.inner-img {
+
+		display: flex;
+		flex-shrink: 0;
+	}
+
+
+	/* Rotate cards at different angles */
+	.flex-card-items:nth-child(1) {
+		transform: rotate(-10deg);
+	}
+
+	.flex-card-items:nth-child(2) {
+		transform: rotate(5deg);
+	}
+
+	.flex-card-items:nth-child(3) {
+		transform: rotate(-15deg);
+	}
+
+	.flex-card-items:nth-child(4) {
+		transform: rotate(10deg);
+	}
+
+	.flex-card-items:nth-child(5) {
+		transform: rotate(-10deg);
+	}
+
+	.flex-card-items:nth-child(6) {
+		transform: rotate(5deg);
+	}
+
+	.flex-card-items:nth-child(7) {
+		transform: rotate(-15deg);
+	}
+
+	.flex-card-items:nth-child(8) {
+		transform: rotate(60deg);
+	}
+
+	/* Add hover effect for fun */
+	.flex-card-items>img:hover {
+		transform: rotate(3deg);
+		border-color: #69b4ca;
+	}
+</style>
+
+
+
+<head>
+	<title>BMX Store</title>
+	<!--This will adjust view width to device size-->
+	<meta name="viewport" content="width=device-width">
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" href="styles/brand-styles.css">
+</head>
+
+<body id="landingPage" data-target=".navbar" data-offset="60">
+
+	<!-- Header with Navigation Bar -->
+	<nav class="main-nav">
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="store.html">STORE</a></li>
+			<li><a href="events.html">EVENTS</a></li>
+			<li><a href="archives.html">ARCHIVES</a></li>
+		</ul>
+	</nav>
+
+	<!------------------------------------------- CONTAINER (TEAM PORTALS) -------------------------------------------------------------->
+	<header>
+		<!-- div class="floating-box-test" id="myHeader"--><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<!--img src="images/main.jpg" alt="Image" style="width:50%"-->
+		<div class="centered myfontL">Archives<br>
+			<p class="myfontS">old skool bmx's...</p>
+		</div><br><br>
+		<div class="head-container"></div>
+		<div class="centered-logo-store">
+			<img id="myimg" src="images/branded-logo--head.png" alt="Image"><br><br>
+		</div><br><br>
+		</div>
+		</div>
+
+	</header>
+
+	<section>
+
+		<div class="flex-card-container">
+			<div class="flex-card-items"><img class="inner-img" src="images/ron.png"></div>
+			<div class="flex-card-items"><img class="inner-img" src="images/flat-hip.jpg"></div>
+			<div class="flex-card-items"><img class="inner-img" src="images/flatland-rider.jpg"></div>
+			<div class="flex-card-items"><img class="inner-img" src="images/oh-shit.png"></div>
+			<div class="flex-card-items"><img class="inner-img" src="images/racers-bw.jpg"></div>
+			<div class="flex-card-items"><img class="inner-img" src="images/Terry-Adams-BMX-Flatland.jpeg"></div>
+			<div class="flex-card-items"><img class="inner-img" src="images/flatter.jpg"></div>
+			<div class="flex-card-items"><img class="inner-img" src="images/crossup.png"></div>
+		</div>
+
+	</section>
+
+	<br><br><br><br>
+
+	<footer>
+		<br><br><br><br>
+
+		<div style="background-color: #2cc7cdfe; padding: 0px;">
+			<img src="images/berm-blue2.png"
+				style="width:100%; border-style: none; background-color:black; border: 0px;">
+		</div>
+
+		<div class="adds" style="height:100%; padding: 40px; font-size:20px; background-color: #2cc7cdfe;">
+			<br><br>
+			<address class="animate-bottom">
+				<strong>Branded BMX</strong><br>
+				123 Hoxton Street<br>
+				London, EC3 TQY<br>
+				United Kingdom<br>
+				0181 4532876<br>
+			</address>
+		</div>
+		<p>&copy; 2025 Your Name. All rights reserved.</p>
+		</div>
+		</div>
+
+		<footer>
+
+</body>
+
+</html>
