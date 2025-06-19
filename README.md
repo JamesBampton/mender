@@ -1,8 +1,14 @@
-# Mender Portfolio Site - Now contains updated version of the Branded BMX sample site
+# Mender Portfolio Site - 
+
+Contains Initial Mender Website build using HTML, CSS and PHP. Based around a fake business. Within this site thre are links to two further websites and a portfolio section that showcases some graphics work and some diagrams. This site is new and being updated regulary
+
+# Mender Website - This is the orignal index page for the porfolio, this part of the porfolio using PHP and have various includes to manage consistant navivation bar. It also uses bootstrap java script and  grid layout. 
+
+The site is based around a ficticious Maintenance business.
 
 
 
-# Challenge for week 2 - Build a multipage web site using the skills learnt to far
+# Branded Website - Required to build a multipage HTML web site using flexbox, transitions, transforms, pseudo elements, contact form and html5 semantics
 
 The site is based around a ficticious store selling retro BMX bikes.
 
