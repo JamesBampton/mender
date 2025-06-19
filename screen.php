@@ -787,7 +787,7 @@
 				<div class="layer"></div>
 				<!-- div class="cardimg"-->
 				<p class="w3-center" style="padding-bottom: 0px; height: 90%; display: flex; align-items: center; justify-content: center;">
-					<img src="images/images/apmLblue.png" class="w3-circle"
+					<img src="images/images/mender-bgd.png" class="w3-circle"
 						style="height:200px;; margin-bottom: 10px; display: flex; align-items: center; justify-content: center;"
 						alt="Avatar">
 				</p>
